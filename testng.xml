@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="scripts.Searchjobtest"/>
+      <class name="scripts.Services_cert_test"/>
+      <class name="scripts.Recruiter_loc_test"/>
+      <class name="scripts.LoginTest"/>
+      <class name="scripts.Adv_search_test"/>
+      <class name="scripts.Brows_allcomp_test"/>
+      <class name="scripts.Connection_buy_test"/>
+      <class name="scripts.Interview_qus_test"/>
+      <class name="scripts.Jobsby_loc_test"/>
+      <class name="scripts.Jobsby_company_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

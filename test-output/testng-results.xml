@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[photo should be taken]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56459" started-at="2018-10-04T03:34:40Z" finished-at="2018-10-04T03:35:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56459" started-at="2018-10-04T03:34:40Z" finished-at="2018-10-04T03:35:36Z">
+      <class name="scripts.Connection_buy_test">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:scripts.Connection_buy_test@7a765367]" name="openbrowser" is-config="true" duration-ms="12887" started-at="2018-10-04T03:34:40Z" finished-at="2018-10-04T03:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Connection_buy_test_method()[pri:0, instance:scripts.Connection_buy_test@7a765367]" name="Connection_buy_test_method" duration-ms="41151" started-at="2018-10-04T03:34:53Z" finished-at="2018-10-04T03:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Connection_buy_test_method -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:scripts.Connection_buy_test@7a765367]" name="closebrowser" is-config="true" duration-ms="2347" started-at="2018-10-04T03:35:34Z" finished-at="2018-10-04T03:35:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Connection_buy_test_method status=SUCCESS method=Connection_buy_test.Connection_buy_test_method()[pri:0, instance:scripts.Connection_buy_test@7a765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[photo should be taken]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- scripts.Connection_buy_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
